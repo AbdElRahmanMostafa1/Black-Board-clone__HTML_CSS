@@ -1,0 +1,149 @@
+*  {
+    box-sizing: border-box;
+}
+
+body {
+    /* height: 10000px; */
+    background-image: url('https://www.egypttoday.com/siteimages/Larg/74149.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+/* Logo Image */
+header img {
+    display: block;
+    /* width: 244px;
+    height: 223px; */
+    width: 15%;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50% , -10%);
+}
+
+/* Section article */
+
+section {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: center;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    height: 750px;
+}
+
+section article {
+    font-family: "times new roman";
+    font-weight: lighter;
+    color: white;
+    text-align: center;
+    padding: 2%;
+    background-color: rgba(71, 118, 189, 0.6);
+    border: rgba(255, 255, 255, 0.466);
+    width: 45%;
+    height: 550px;
+    margin: 1%;
+}
+/* Right Section article */
+
+section .left h2 , section .left h3 {
+    font-size: 32px;
+    font-weight: normal;
+    line-height: 0;
+}
+
+/* Input */
+section .left form input {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid white;
+    margin: 10px;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 35px;
+
+}
+
+section .left form input:focus {
+    border-bottom: 2px solid rgb(212, 8, 253);
+    transition: all .5s linear;
+
+}
+
+/* Button */
+section .left form button {
+    display: block;
+    width: 100%;
+    padding: 5%;
+    background-color: #01A759;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    margin-top: 25px;
+    transition-duration: .1s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+
+}
+
+section .left form button:hover {
+    outline: 1px dashed white;
+    box-shadow: 0 0 10px yellow;
+    background-color: #01a75a9a;
+    color: yellow;
+    transition-duration: .5s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+}
+
+/* Forget password link*/
+section .left form a {
+    display: block;
+    color: white;
+    margin-top: 15px;
+}
+
+
+/* Left Section article */
+section .right h2 {
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 0;
+}
+
+section .right h3 {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: normal;
+}
+
+section .right h4 {
+    line-height: 1;
+}
+
+section .right img {
+    width: 35%;
+    height: 7.5%;
+}
+
+footer {
+    padding-left: 10px;
+    background-color: rgba(0, 0, 0, 0.705);
+    color: white;
+    position: fixed;
+    bottom: 0%;
+    margin-bottom: 0px;
+    width: 100%;
+    height: auto;
+}
